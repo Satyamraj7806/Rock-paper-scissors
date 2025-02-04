@@ -28,3 +28,4 @@ if __name__ == "__main__":
     rock_paper_scissors()
 
        
+![image](https://github.com/user-attachments/assets/bbfe6850-3e43-4b36-aefd-e4eacb3b0931)
