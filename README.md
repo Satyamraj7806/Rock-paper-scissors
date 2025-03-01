@@ -1,31 +1,27 @@
-# Rock-paper-scissors
 
-import random
+# Rock Paper Scissors Game
 
-def rock_paper_scissors():
-    print("Welcome to Rock, Paper, Scissors!")
-    choices = ["rock", "paper", "scissors"]    
-    while True:
-        player_pick = input("Enter rock, paper, or scissors (or 'quit' to stop): ").lower()
-        if player_pick == "quit":
-            print("Thanks for playing!")
-            break
-        if player_pick not in choices:
-            print("Invalid choice. Try again.")
-            continue   
-             computer = random.choice(choices)
-        print(f"Computer chose: {computer}")        
-        if player_pick == computer:
-            print("It's a tie!")
-        elif (player_pick == "rock" and computer == "scissors") or \
-             (player_pick == "paper" and computer == "rock") or \
-             (player_pick == "scissors" and computer == "paper"):
-            print("You won!")
-        else:
-            print("You lose!")
+## 📌 Introduction
+This is a simple **Rock Paper Scissors** game written in **C programming language**. The game allows a player to compete against the computer in a classic game of Rock-Paper-Scissors.
 
-if __name__ == "__main__":
-    rock_paper_scissors()
+## 🎮 How to Play
+1. Run the program.
+2. Choose one of the following options:
+   -  Rock 🪨
+   -  Paper 📄
+   -  Scissors ✂
+3. The computer randomly selects its move.
+4. The program displays the choices and determines the winner based on the game rules:
+   - Rock beats Scissors
+   - Scissors beat Paper
+   - Paper beats Rock
+5. The result is displayed, and the player is given an option to play again.
+
+
+
+🎯 **Enjoy the game and have fun!** 🎉
+
+
 
        
 ![image](https://github.com/user-attachments/assets/bbfe6850-3e43-4b36-aefd-e4eacb3b0931)
